@@ -1,4 +1,20 @@
+/* --- Default Styles --- */
 
+body { overflow-x: hidden; }
+
+/* --- Landing Page --- */
+
+.Landing {
+  background-image: url(../images/beachsunset.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ }
+
+ /* --- Navbar --- */
+
+.navbar { background-color: #fff; box-shadow: 0 8px 6px -6px black; }
+ .navbar img { height: 40px; width: 40px; }
 
 
 
