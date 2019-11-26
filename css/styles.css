@@ -11,10 +11,18 @@ body { overflow-x: hidden; }
   height: 100vh;
  }
 
+
+.Landing .landing-logo img { height: 150px; width: 60px; opacity: 0.6; }
+
+ .Landing h1 {
+   color: #fff;
+   text-align: center;
+   font-size: 70px;
+ }
  /* --- Navbar --- */
 
-.navbar { background-color: #fff; box-shadow: 0 8px 6px -6px black; }
- .navbar img { height: 40px; width: 40px; }
+.navbar { display: none; background-color: #fff; box-shadow: 0 8px 6px -6px black; }
+.navbar img { height: 40px; width: 40px; }
 
 
 
