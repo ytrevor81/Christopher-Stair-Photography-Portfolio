@@ -8,8 +8,8 @@ button {
   width: 250px;
   height: 50px;
   background-color: inherit;
-  border: 3px solid white;
-  font-size: 25px;
+  border: 2px solid white;
+  font-size: 21px;
   color: white;
   font-weight: bold;
 }
@@ -57,7 +57,7 @@ button:hover {
  /* --- Navbar --- */
 
 .navbar { background-color: #fff; box-shadow: 0 8px 6px -6px black; font-size: 15px; }
-.navbar img { height: 40px; width: 40px; margin-top: -9px; }
+.navbar img { height: 40px; width: 40px; margin-top: -10px; }
 
 /* --- About --- */
 
@@ -65,6 +65,62 @@ button:hover {
 .About img { height: 100vh; width: 675px; }
 .About .about-text { margin-top: 50px; margin-left: 50px; font-size: 20px; }
 .About .about-text p { margin-top: 30px; text-align: justify; }
+
+/* --- Gallery --- */
+
+.Gallery h1 { color: #fff; margin-top: 65px; }
+
+.Gallery .travel {   background-image: url(../images/travel_bg.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 95vh;
+            text-align: center;
+          }
+.Gallery .portraits {
+    background-image: url(../images/solcar.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    text-align: center;
+          }
+.Gallery .weddings {
+    background-image: url(../images/lonelywoman.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    text-align: center;
+        }
+.Gallery .travel-button { margin-top: 55vh; }
+.Gallery .portraits-button { margin-top: 80vh; }
+
+/* --- Pricing --- */
+.Pricing .pricing-first-half { background-color: #EEEEEE; height: 80vh; }
+.Pricing .pricing-second-half { background-color: #6F00DE; height: 120vh; text-align: center; }
+
+.Pricing .slider-box { text-align: center; height: 520px; width: 875px; background-color: inherit; border: 2px solid white; }
+.Pricing img { height: 500px; width: 850px; }
+
+
+/* --- Contact --- */
+
+.Contact {  background-image: url(../images/busystreet.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            text-align: center;
+          }
+.Contact h1 { color: #fff; margin-top: 65px; }
+
+/* --- Footer --- */
+
+
+
+/* --- Responsiveness --- */
+
+
+
+
+
 
 
 
