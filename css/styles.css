@@ -124,21 +124,22 @@ button:hover {
 .Contact {  background-image: url(../images/sunset.jpg);
             background-size: cover;
             background-position: center;
-            height: 100vh;
+            height: 118vh;
             text-align: center;
           }
 .Contact h1 { color: #fff; margin-top: 65px; }
 
 .Contact section { margin: 15px 0 15px 0; }
 .Contact input, .Contact textarea { background-color: rgba(225,225,225,1); color: #333; }
-.Contact .contact-first-half { margin-top: 25px; }
-.Contact .contact-second-half { margin-top: -15px; }
+.Contact .contact-first-half { margin-top: 25px; padding-right: 7%;  }
+.Contact .contact-second-half { margin-top: 25px; }
 .Contact .contact-btn { margin: 25px; font-weight: normal; }
 .Contact .contact-btn:hover { font-weight: bold; }
 
 
 /* --- Footer --- */
-
+.footer { text-align: center; height: 100px; background-color: inherit; margin-top: 25px; }
+.footer h5 { position: relative; font-size: 18px; color: #fff; }
 
 
 /* --- Responsiveness --- */
