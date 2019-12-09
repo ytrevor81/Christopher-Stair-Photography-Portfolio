@@ -107,7 +107,7 @@ button:hover {
 /* --- Pricing --- */
 .Pricing h1 { margin-top: 65px; }
 .Pricing .pricing-first-half { background-color: #EEEEEE; height: 90vh; }
-.Pricing .pricing-second-half { background-color: #6F00DE; height: 145vh; text-align: center; }
+.Pricing .pricing-second-half { background-color: #6F00DE; height: 140vh; text-align: center; }
 .Pricing .pricing-lists { margin-left: 30px; margin-right: 30px; }
 .Pricing .standard h4 { font-size: 27px; margin-top: 25px; }
 .Pricing .standard h5 { font-size: 24px; margin-top: 20px; margin-bottom: 20px; }
@@ -125,14 +125,16 @@ button:hover {
 
 
 .Pricing .editing-container { text-align: left; margin-left: 30px; }
-.Pricing .editing-container h4 { font-size: 25px; color: #fff; }
-.Pricing .slider-box { text-align: center; width: 95%; background-color: inherit; border: 2px solid white; }
-.Pricing img { height: 540px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
+.Pricing .editing-container h4 { font-size: 25px; color: #fff; margin-bottom: 15px; }
+.Pricing .slider-box1 { text-align: center; width: 31%; background-color: inherit; border: 2px solid white; margin-right: 25px; }
+.Pricing .slider-box2 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; margin-right: 25px; }
+.Pricing .slider-box3 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; }
+.Pricing img { height: 525px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
 
 
 /* --- Contact --- */
 
-.Contact {  background-image: url(../images/sunset.jpg);
+.Contact {  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/sunset.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -141,14 +143,19 @@ button:hover {
             text-align: center;
           }
 .Contact h1 { color: #fff; margin-top: 65px; }
+.Contact .friendly-statement { font-size: 22px; color: #fff; margin: -10px 0 25px 0; }
 
 .Contact section { margin: 15px 0 15px 0; }
 .Contact input, .Contact textarea { background-color: rgb(225,225,225); color: #333; }
-.Contact .contact-first-half { margin-top: 25px; padding-right: 7%;  }
-.Contact .contact-second-half { margin-top: 25px; }
+.Contact .contact-container { margin: 40px 25px 0 25px; }
+.Contact .contact-boxes { padding-right: 5%;  }
 .Contact .contact-btn { margin: 25px; font-weight: normal; }
 .Contact .contact-btn:hover { font-weight: bold; }
 
+.Contact .info { padding-top: 5% }
+.Contact .info div { display: grid; grid-template-columns: 40% 50%; margin-bottom: 25px; }
+.Contact .info h5 { font-size: 18px; color: #fff; }
+.Contact .info i { color: #6F00DE; }
 
 /* --- Footer --- */
 .footer { text-align: center; height: 100px; background-color: inherit; margin-top: 25px; }
