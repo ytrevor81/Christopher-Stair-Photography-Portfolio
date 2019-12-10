@@ -1,5 +1,9 @@
 /* --- Default Styles --- */
 
+.modal.and.carousel {
+  position: fixed;
+}
+
 body { overflow-x: hidden; font-family: 'Maven Pro', sans-serif; }
 
 h1 { font-size: 50px; }
