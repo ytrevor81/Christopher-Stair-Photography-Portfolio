@@ -142,12 +142,12 @@ button:hover {
 
 /* --- Contact --- */
 
-.Contact {  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/sunset.jpg);
+.Contact {  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/busystreet.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 118vh;
+            height: 150vh;
             text-align: center;
           }
 .Contact h1 { color: #fff; margin-top: 65px; }
@@ -156,19 +156,18 @@ button:hover {
 .Contact section { margin: 15px 0 15px 0; }
 .Contact input, .Contact textarea { background-color: rgb(225,225,225); color: #333; }
 .Contact .contact-container { margin: 40px 25px 0 25px; }
-.Contact .contact-boxes { padding-right: 5%;  }
+.Contact .contact-boxes { padding: 0 20% 0 20%;  }
 .Contact .contact-btn { margin: 25px; font-weight: normal; }
 .Contact .contact-btn:hover { font-weight: bold; }
 
-.Contact .info { padding-top: 5% }
-.Contact .info div { display: grid; grid-template-columns: 40% 50%; margin-bottom: 25px; }
-.Contact .info h5 { font-size: 18px; color: #fff; }
-.Contact .info i { color: #6F00DE; }
-
 /* --- Footer --- */
-.footer { text-align: center; height: 100px; background-color: inherit; margin-top: 25px; }
-.footer h5 { position: relative; font-size: 18px; color: #fff; }
-
+footer { text-align: center; background-color: inherit; margin-top: 25px; }
+footer .info { padding: 0px 10px 50px 10px; margin: 0px 100px 0 100px; border-top: 1px solid #fff;  }
+footer .info i { color: #EE82EE; }
+footer h5 { font-size: 17px; color: #fff; }
+footer .return { margin: 10px 0 25px 0; }
+footer .return h5 { font-size: 16px; }
+footer .copy { font-size: 18px; margin-top: 50px; }
 
 /* --- Responsiveness --- */
 
