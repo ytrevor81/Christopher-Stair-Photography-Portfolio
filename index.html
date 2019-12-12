@@ -78,57 +78,78 @@
         </div>
         <button class="travel-button" data-toggle="modal" data-target=".modal" >TRAVEL</button>
 
-        <!-- MODAL EXAMPLE BEGINS -->
-        <div class="container">
-
-            <div class="modal fade and carousel slide" id="lightbox">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <ol class="carousel-indicators">
-                      <li data-target="#lightbox" data-slide-to="0" class="active"></li>
-                      <li data-target="#lightbox" data-slide-to="1"></li>
-                      <li data-target="#lightbox" data-slide-to="2"></li>
-                      <li data-target="#lightbox" data-slide-to="3"></li>
-                      <li data-target="#lightbox" data-slide-to="4"></li>
-                      <li data-target="#lightbox" data-slide-to="5"></li>
-                      <li data-target="#lightbox" data-slide-to="6"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="item active">
-                        <img src="images/necklady.jpg" alt="First slide">
+        <!-- MODAL BEGINS -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- Travel Gallery BEGINS -->
+              <section id="gallery">
+                <div class="container">
+                  <div id="image-gallery">
+                    <div class="row">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/necklady.jpg"><img src="images/necklady.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
                       </div>
-                      <div class="item">
-                        <img src="images/pagoda.jpg" alt="Second slide">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/pagoda.jpg"><img src="images/pagoda.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
                       </div>
-                      <div class="item">
-                        <img src="images/ricefarm.jpg" alt="Third slide">
-                        <div class="carousel-caption"><p>even with captions...</p></div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/buddha.jpg"><img src="images/buddha.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
                       </div>
-                      <div class="item">
-                        <img src="images/widetemple.jpg" alt="Fourth slide">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/ricefarm.jpg"><img src="images/ricefarm.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
                       </div>
-                      <div class="item">
-                        <img src="images/buddha.jpg" alt="Fifth slide">
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/bridge.jpg"><img src="images/bridge.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"> </div>
+                        </div>
                       </div>
-                      <div class="item">
-                        <img src="images/bridge.jpg" alt="Sixth slide">
-                        <div class="carousel-caption"><p>even with captions...</p></div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/pond.jpg"><img src="images/pond.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"> </div>
+                        </div>
                       </div>
-                    </div><!-- /.carousel-inner -->
-                    <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
-                      <i class="fa fa-chevron-left fa-2x"></i>
-                    </a>
-                    <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
-                      <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                  </div><!-- /.modal-body -->
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-          </div><!-- /.container -->
-        <!-- MODAL EXAMPLE ENDS -->
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/pondwide.jpg"><img src="images/pondwide.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/train.jpg"><img src="images/train.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
+                      </div>
+                      <div class="image-grid col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="images/travel_bg.jpg"><img src="images/travel_bg.jpg" class="img-responsive"></a>
+                          <div class="img-overlay"></div>
+                        </div>
+                      </div>
+                    </div><!-- End row -->
+                  </div><!-- End image gallery -->
+                </div><!-- End container -->
+              </section>
+              <!-- Travel Gallery ENDS -->
+            </div>
+          </div>
+        </div>
+        <!-- MODAL ENDS -->
 
       </div>
       <div class="portraits">
@@ -252,39 +273,8 @@
         </footer>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/modalex.js"></script>
   </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
