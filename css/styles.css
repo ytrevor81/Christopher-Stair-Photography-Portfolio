@@ -169,51 +169,39 @@ footer .return { margin: 10px 0 25px 0; }
 footer .return h5 { font-size: 16px; }
 footer .copy { font-size: 18px; margin-top: 50px; }
 
-/* --- Responsiveness --- */
-
 @keyframes backgroundslide {
   0%, 100% {   background-image: url(../images/travel_bg.jpg); }
   25% {   background-image: url(../images/widetemple.jpg); }
   50% {   background-image: url(../images/pondwide.jpg); }
   75% {   background-image: url(../images/treeface.jpg); }
 }
+/* --- Modal and Slideshow --- */
 
 #gallery {
-  padding-top: 40px;
-  @media screen and (min-width: 991px) {
-    padding: 60px 30px 0 30px;
-  }
+  padding-top: 15px;
 }
 
 .image-gallery { width: 92%; }
 
-.image-grid {
-  margin-right: -8%;
-}
-
 .img-wrapper {
   position: relative;
-  img {
-    width: 100%;
-  }
+}
+.img-wrapper img {
+  width: 100%;
 }
 
 .img-wrapper img {
   margin: 0;
-  width: 80%;
   height: auto;
+  min-height: 400px;
+  max-height: 435px;
   object-fit: contain;
   padding: 5%;
-  @media screen and (min-width:768px) {
-      width: 60%;
-  }
-  @media screen and (min-width:1200px) {
-      width: 50%;
-  }
 }
+
 .img-overlay {
   background: rgba(0,0,0,0.7);
-  width: 80%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -222,11 +210,12 @@ footer .copy { font-size: 18px; margin-top: 50px; }
   justify-content: center;
   align-items: center;
   opacity: 0;
-  i {
-    color: #fff;
-    font-size: 3em;
-  }
+  cursor: pointer;
 }
+
+.img-overlay i { color: #fff;
+font-size: 3em; }
+
 
 #overlay {
   background: rgba(0,0,0,0.7);
@@ -239,25 +228,19 @@ footer .copy { font-size: 18px; margin-top: 50px; }
   justify-content: center;
   align-items: center;
   z-index: 999;
-  // Removes blue highlight
+  /*Removes blue highlight*/
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  img {
-    margin: 0;
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-    padding: 5%;
-    @media screen and (min-width:768px) {
-        width: 60%;
-    }
-    @media screen and (min-width:1200px) {
-        width: 50%;
-    }
-  }
 }
+
+#overlay img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 5%; }
 
 #nextButton {
   color: #fff;
@@ -265,9 +248,6 @@ footer .copy { font-size: 18px; margin-top: 50px; }
   transition: opacity 0.8s;
   &:hover {
     opacity: 0.7;
-  }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
   }
 }
 
@@ -277,9 +257,6 @@ footer .copy { font-size: 18px; margin-top: 50px; }
   transition: opacity 0.8s;
   &:hover {
     opacity: 0.7;
-  }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
   }
 }
 
@@ -293,9 +270,22 @@ footer .copy { font-size: 18px; margin-top: 50px; }
   &:hover {
     opacity: 0.7;
   }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
-  }
+}
+
+
+
+/* --- Responsiveness --- */
+
+@media screen and (min-width: 991px) {
+  #gallery { padding: 30px 30px 0 30px; }
+}
+
+@media screen and (min-width:768px) {
+  #nextButton, #prevButton, #exitButton { font-size: 3em; }
+}
+
+@media screen and (max-width:1125px) {
+  .img-wrapper { margin-left: 0; }
 }
 
 
