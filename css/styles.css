@@ -46,24 +46,31 @@ button:hover {
   animation: backgroundslide 20s linear infinite 0s;
   animation-timing-function: ease-in-out;
   height: 100vh;
-  text-align: center;
  }
+ .Landing section {
+   height: 100vh;
+   background-color: rgba(0,0,0,0.1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    }
+.Landing section .landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; }
 
- .Landing section { height: 100vh; background-color: rgba(0,0,0,0.1); }
-.Landing .landing-logo { position: absolute; top: 50%; margin-top: -143px; left: 50%; margin-left: -100px; text-align: center; }
+.Landing .landing-logo { position: absolute; }
 .Landing .landing-logo img { height: 245px; width: 100px; opacity: 0.6; }
-
-.Landing .headings { margin-top: 230px; }
 .Landing .headings h1 {
    color: #fff;
    text-align: center;
-   font-size: 70px;
+   font-size: 75px;
    margin-top: 0;
    margin-bottom: 0;
  }
- .Landing .headings .name { display: grid; grid-template-columns: 21% 21%; justify-content: center; letter-spacing: 5px;  }
-
- .Landing .landing-button { margin-top: 100px; }
+ .Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 8px;  }
 
 
  /* --- Navbar --- */
@@ -74,7 +81,7 @@ button:hover {
 /* --- About --- */
 
 .About { height: 100vh; }
-.About img { height: 100vh; width: 675px; }
+.About img { height: 100vh; width: 40%; }
 .About .about-text { margin-top: 50px; margin-left: 50px; font-size: 20px; }
 .About .about-text p { margin-top: 30px; text-align: justify; }
 
@@ -275,6 +282,12 @@ font-size: 3em; }
 
 
 /* --- Responsiveness --- */
+
+@media screen and (max-width: 1350px) {
+  .Landing section .landing-container { height: 275px; }
+  .Landing .headings h1 { font-size: 70px; }
+  .Landing .headings .names { letter-spacing: 6px; }
+}
 
 @media screen and (min-width: 991px) {
   #gallery { padding: 30px 30px 0 30px; }
