@@ -4,6 +4,8 @@
   position: fixed;
 }
 
+html { scroll-behavior: smooth; }
+
 body { overflow-x: hidden; font-family: 'Maven Pro', sans-serif; }
 
 h1 { font-size: 50px; }
@@ -146,6 +148,8 @@ button:hover {
 .Pricing .slider-box2 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; margin-right: 25px; }
 .Pricing .slider-box3 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; }
 .Pricing img { height: 525px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
+
+.Pricing iframe .jx-slider { height: 525px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
 
 
 /* --- Contact --- */
@@ -307,6 +311,7 @@ font-size: 3em; }
   .Pricing .pricing-second-half { height: 110vh; }
   .Pricing .editing-container { margin-left: 50px; }
   .Pricing .editing-container h4 { font-size: 30px; margin-bottom: 20px; }
+  .Pricing iframe .jx-slider { height: 700px; }
   .Pricing img { height: 700px; }
 
   .Contact { height: 110vh; }
