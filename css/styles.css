@@ -73,7 +73,11 @@ button:hover {
    margin-top: 0;
    margin-bottom: 0;
  }
- .Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 6px;  }
+.Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 6px;  }
+.Landing i { color: #fff; }
+.Landing i:hover, .Landing i:active { transition: 0.3s;
+color: #6F00DE; }
+.Landing .continue { position: absolute; top: 90%; }
 
 
  /* --- Navbar --- */
@@ -84,7 +88,43 @@ button:hover {
 /* --- About --- */
 
 .About { height: 100vh; }
-.About img { height: 100vh; width: 40%; }
+.About h1 { margin-top: 65px; }
+
+.hex-image {
+    width: 450px;
+    height: 450px;
+    background: transparent url(../images/about1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin: 50px auto; /* centering */
+}
+/* Left shape */
+.hex-image:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  width: 0;
+  height: 3px;
+  border-left: 100px solid transparent;
+  border-bottom: 225px solid white;
+  border-top: 225px solid white;
+}
+/* Right shape */
+.hex-image:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  width: 0;
+  height: 3px;
+  border-right: 100px solid transparent;
+  border-bottom: 225px solid white;
+  border-top: 225px solid white;
+}
+
+
 .About .about-text { margin-top: 50px; margin-left: 50px; font-size: 20px; }
 .About .about-text p { margin-top: 30px; text-align: justify; }
 
@@ -144,12 +184,12 @@ button:hover {
 
 .Pricing .editing-container { text-align: left; margin-left: 30px; }
 .Pricing .editing-container h4 { font-size: 25px; color: #fff; margin-bottom: 15px; }
-.Pricing .slider-box1 { text-align: center; width: 31%; background-color: inherit; border: 2px solid white; margin-right: 25px; }
-.Pricing .slider-box2 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; margin-right: 25px; }
+.Pricing .slider-box1 { text-align: center; width: 31%; background-color: inherit; border: 2px solid white; margin-right: 35px; }
+.Pricing .slider-box2 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; margin-right: 35px; }
 .Pricing .slider-box3 { text-align: center; width: 30%; background-color: inherit; border: 2px solid white; }
 .Pricing img { height: 525px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
 
-.Pricing iframe .jx-slider { height: 525px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
+.Pricing iframe { height: 675px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
 
 
 /* --- Contact --- */
@@ -309,10 +349,10 @@ font-size: 3em; }
   .Pricing .package ul { margin-top: 50px; }
   .Pricing .package ul li { font-size: 24px; padding: 30px 0px 30px 0px; }
   .Pricing .pricing-second-half { height: 110vh; }
-  .Pricing .editing-container { margin-left: 50px; }
+  .Pricing .editing-container { margin-left: 30px; }
   .Pricing .editing-container h4 { font-size: 30px; margin-bottom: 20px; }
-  .Pricing iframe .jx-slider { height: 700px; }
-  .Pricing img { height: 700px; }
+  .Pricing iframe {  }
+  .Pricing img { height: 675px; }
 
   .Contact { height: 110vh; }
   .Contact h1 { margin-top: 70px; }
