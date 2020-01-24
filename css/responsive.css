@@ -1,5 +1,10 @@
 /* --- Responsiveness --- */
 
+@media screen and (max-width: 1800px) {
+  .about-container { left: 15%; }
+}
+
+
 @media screen and (min-width: 1400px) {
 
   h1 { font-size: 60px; }
