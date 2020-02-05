@@ -90,7 +90,7 @@ color: #6F00DE; }
 .Gallery h1 { color: #FAFAFA; margin-top: 65px; }
 
 .Gallery .travel {
-            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/bali.jpg);
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/bali_background.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -229,8 +229,8 @@ footer .return h5 { font-size: 16px; }
 footer .copy { font-size: 18px; margin-top: 50px; }
 
 @keyframes backgroundslide {
-  0%, 100% {   background-image: url(../images/travel/travel_bg.jpg); }
-  25% {   background-image: url(../images/travel/widetemple.jpg); }
+  0%, 100% {   background-image: url(../images/travel/widetemple.jpg); }
+  25% {   background-image: url(../images/weddings/men.jpg); }
   50% {   background-image: url(../images/travel/pondwide.jpg); }
   75% {   background-image: url(../images/travel/treeface.jpg); }
 }
