@@ -14,27 +14,25 @@
   .Landing .headings h1 { font-size: 75px; }
   .Landing .headings .names { letter-spacing: 8px; }
 
-  .Gallery h1 { margin-top: 70px; }
+  .Gallery h1 { margin-top: 90px; }
   .Gallery .travel .travel-button { margin-top: 65vh; }
 
-  .Pricing h1 { margin-top: 70px; }
-  .Pricing .standard h4 { font-size: 32px; margin-top: 30px; }
-  .Pricing .standard h5 { font-size: 28px; margin-top: 25px; margin-bottom: 25px; }
-  .Pricing .gold h4 { font-size: 32px; margin-top: 30px; }
-  .Pricing .gold h5 { font-size: 28px; margin-top: 25px; margin-bottom: 25px; }
-  .Pricing .deluxe h4 { font-size: 32px; margin-top: 30px; }
-  .Pricing .deluxe h5 { font-size: 28px; margin-top: 25px; margin-bottom: 25px; }
-  .Pricing .package { margin: 55px 8px 0px 5px; }
+  .Pricing h1 {  margin-top: 90px; }
+  .Pricing .standard h4 { font-size: 30px; margin-top: 30px; }
+  .Pricing .standard h5 { font-size: 26px; margin-top: 25px; margin-bottom: 25px; }
+  .Pricing .gold h4 { font-size: 30px; margin-top: 30px; }
+  .Pricing .gold h5 { font-size: 26px; margin-top: 25px; margin-bottom: 25px; }
+  .Pricing .deluxe h4 { font-size: 30px; margin-top: 30px; }
+  .Pricing .deluxe h5 { font-size: 26px; margin-top: 25px; margin-bottom: 25px; }
+  .Pricing .package { margin: 55px 10px 0px 5px; }
   .Pricing .package ul { margin-top: 50px; }
-  .Pricing .package ul li { font-size: 24px; padding: 30px 0px 30px 0px; }
-  .Pricing .pricing-second-half { height: 110vh; }
-  .Pricing .editing-container { margin-left: 30px; }
+  .Pricing .package ul li { font-size: 22px; padding: 30px 0px 30px 0px; }
+  .Pricing .editing-container { }
   .Pricing .editing-container h4 { font-size: 30px; margin-bottom: 20px; }
-  .Pricing iframe {  }
-  .Pricing img { height: 675px; }
+  .Pricing img { width: 95%; }
 
   .Contact { height: 110vh; }
-  .Contact h1 { margin-top: 70px; }
+  .Contact h1 {  margin-top: 90px; }
   .Contact .friendly-statement { font-size: 24px; margin: -10px 0 30px 0; }
   .Contact section { margin: 15px 0 20px 0; }
   .Contact .contact-boxes { padding: 0 25% 0 25%;  }
