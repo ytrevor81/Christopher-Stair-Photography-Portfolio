@@ -15,7 +15,7 @@ var $exitButton = $('<div id="exitButton"><i class="fa fa-times"></i></div>');
 
 // Add overlay
 $overlay.append($image).prepend($prevButton).append($nextButton).append($exitButton);
-$("#gallery").append($overlay);
+$(".gallery-modal").append($overlay);
 
 // Hide overlay on default
 $overlay.hide();
@@ -45,11 +45,11 @@ $nextButton.click(function(event) {
   // Overlay image location
   var $currentImgSrc = $("#overlay img").attr("src");
   // Image with matching location of the overlay image
-  var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+  var $currentImg = $('.image-gallery img[src="' + $currentImgSrc + '"]');
   // Finds the next image
   var $nextImg = $($currentImg.closest(".image").next().find("img"));
   // All of the images in the gallery
-  var $images = $("#image-gallery img");
+  var $images = $(".image-gallery img");
   // If there is a next image
   if ($nextImg.length > 0) {
     // Fade in the next image
@@ -69,7 +69,7 @@ $prevButton.click(function(event) {
   // Overlay image location
   var $currentImgSrc = $("#overlay img").attr("src");
   // Image with matching location of the overlay image
-  var $currentImg = $('#image-gallery img[src="' + $currentImgSrc + '"]');
+  var $currentImg = $('.image-gallery img[src="' + $currentImgSrc + '"]');
   // Finds the next image
   var $nextImg = $($currentImg.closest(".image").prev().find("img"));
   // Fade in the next image
@@ -82,4 +82,32 @@ $prevButton.click(function(event) {
 $exitButton.click(function() {
   // Fade out the overlay
   $("#overlay").fadeOut("slow");
+});
+
+//Navbar Fade In
+
+$(document).ready(function(){
+
+  $(".navbar").hide(); //Hide the navigation bar first
+
+    $(window).scroll(function () {  //Listen for the window's scroll event
+        if (isScrolledAfterElement("#Gallery")) { //if it has scrolled beyond the #content elment
+            $('.navbar').fadeIn();  //Show the navigation bar
+        } else {
+            $('.navbar').fadeOut(); //Else hide it
+        }
+    });
+
+    //Function that returns true if the window has scrolled beyond the given element
+    function isScrolledAfterElement(elem) {
+        var $elem = $(elem);
+        var $window = $(window);
+
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
+
+        var elemTop = $elem.offset().top;
+
+        return elemTop <= docViewBottom;
+    }
 });
