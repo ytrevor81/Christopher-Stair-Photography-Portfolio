@@ -1,0 +1,125 @@
+/* --- Modals and Slideshows --- */
+
+.travel-modal, .portraits-modal, .weddings-modal {
+  padding-top: 15px;
+}
+
+.travel-modal .container, .portraits-modal .container, .weddings-modal .container { width: 700px; }
+
+.travel-image-gallery, .portraits-image-gallery, .weddings-image-gallery { width: 125%; margin-left: -90px; }
+
+.travel-img-wrapper, .portraits-img-wrapper, .weddings-img-wrapper {
+  position: relative;
+}
+
+.travel-img-wrapper img, .portraits-img-wrapper img, .weddings-img-wrapper img {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  min-height: 400px;
+  max-height: 435px;
+  object-fit: contain;
+  padding: 5%;
+}
+
+.travel-img-overlay, .portraits-img-overlay, .weddings-img-overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.travel-img-overlay i, .portraits-img-overlay i, .weddings-img-overlay i, { color: #FAFAFA;
+font-size: 3em; }
+
+
+#travel-overlay, #portraits-overlay, #weddings-overlay {
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  /*Removes blue highlight*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#portraits-overlay { height: 50%; }
+#weddings-overlay { height: 60%; }
+
+#travel-overlay img, #portraits-overlay img, #weddings-overlay img {
+  margin: 0;
+  width: 650px;
+  height: auto;
+  object-fit: contain;
+  padding: 5%; }
+
+#travel-nextButton, #portraits-nextButton, #weddings-nextButton {
+  color: #FAFAFA;
+  font-size: 2em;
+  transition: opacity 0.8s;
+}
+#travel-nextButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#portraits-nextButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#weddings-nextButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#travel-prevButton, #portraits-prevButton, #weddings-prevButton {
+  color: #FAFAFA;
+  font-size: 2em;
+  transition: opacity 0.8s;
+}
+#travel-prevButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#portraits-prevButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#weddings-prevButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#travel-exitButton, #portraits-exitButton, #weddings-exitButton {
+  color: #FAFAFA;
+  font-size: 2em;
+  transition: opacity 0.8s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#travel-exitButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#portraits-exitButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#weddings-exitButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
