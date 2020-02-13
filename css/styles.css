@@ -75,8 +75,7 @@ button:hover {
  }
 .Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 6px;  }
 .Landing i { color: #FAFAFA; }
-.Landing i:hover, .Landing i:active { transition: 0.3s;
-color: #6F00DE; }
+.Landing i:hover, .Landing i:active { transition: 0.3s; color: #FF00FF; }
 .Landing .continue { position: absolute; top: 90%; }
 
 
@@ -234,7 +233,7 @@ color: #6F00DE; }
 footer { text-align: center; background-color: inherit; margin-top: 25px; }
 footer .info { padding: 0px 10px 50px 10px; margin: 0px 100px 0 100px; border-top: 1px solid #fff;  }
 footer .info i { color: #FAFAFA; }
-footer .info i:hover { cursor: pointer; transition: 0.3s; color: #6F00DE; }
+footer .info i:hover { cursor: pointer; transition: 0.3s; color: #FF00FF; }
 footer h5 { font-size: 17px; color: #FAFAFA; }
 footer .return { margin: 10px 0 25px 0; }
 footer .return h5 { font-size: 16px; }

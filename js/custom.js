@@ -217,6 +217,7 @@ $(".weddings-img-overlay").click(function(event) {
 $weddings_overlay.click(function() {
   // Fade out the overlay
   $(this).fadeOut("slow");
+  $('#weddings-overlay').scrollTop(0);
 });
 
 // When next button is clicked
@@ -266,6 +267,9 @@ $weddings_exitButton.click(function() {
 });
 
 /////////////////////////////////////////////////////////////
+
+
+
 
 //Navbar Fade In
 

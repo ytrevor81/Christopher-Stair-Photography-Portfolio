@@ -183,27 +183,23 @@
         <div class="underline white"></div>
       </div>
         <div class="contact-container">
-          <h5 class="friendly-statement">Lorem ipsum dolor sit amet</h5>
-          <div class="contact-boxes col-lg-12 col-md-12">
+          <h5 class="friendly-statement">Want to work together or have a question?</h5>
+          <form class="contact-boxes col-lg-12 col-md-12" method="POST" data-email="ytrevor81@gmail.com" action="https://script.google.com/macros/s/AKfycbwbogqGupXKFS6ZRUK9WD722x8S2tySgaizYCMb/exec">
             <section class="input-group input-group-lg">
-              <span class="input-group-addon" id="firstname"><i class="fa fa-user"></i></span>
-              <input type="text" name="" class="form-control" aria-describedby="firstname" placeholder="First Name">
-            </section>
-            <section class="input-group input-group-lg">
-              <span class="input-group-addon" id="lastname"><i class="fa fa-user"></i></span>
-              <input type="text" name="" class="form-control" aria-describedby="lastname" placeholder="Last Name">
+              <span class="input-group-addon" id="name"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" id="name" class="form-control" aria-describedby="name" placeholder="Full Name">
             </section>
             <section class="input-group input-group-lg">
               <span class="input-group-addon" id="Email"><i class="fa fa-envelope"></i></span>
-              <input type="text" name="" class="form-control" aria-describedby="Email" placeholder="Email Address">
+              <input type="text" name="email" id="email" class="form-control" aria-describedby="Email" placeholder="Email Address">
             </section>
             <section class="input-group input-group-lg">
               <span class="input-group-addon" id="Subject"><i class="fa fa-comment"></i></span>
-              <input type="text" name="" class="form-control" aria-describedby="Subject" placeholder="Subject">
+              <input type="text" class="form-control" aria-describedby="Subject" placeholder="Subject">
             </section>
-            <textarea rows="5" cols="80" class="form-control" placeholder="Write your message here..."></textarea>
-            <button class="contact-btn">Send</button>
-          </div>
+            <textarea rows="5" cols="80" name="message" id="message" class="form-control" placeholder="Write your message here..."></textarea>
+            <button type="submit" class="contact-btn">Send</button>
+          </form>
         </div>
         <footer class="col-lg-12 col-md-12">
           <div class="contact-info">
