@@ -238,6 +238,9 @@ footer h5 { font-size: 17px; color: #FAFAFA; }
 footer .return { margin: 10px 0 25px 0; }
 footer .return h5 { font-size: 16px; }
 footer .copy { font-size: 18px; margin-top: 50px; }
+footer .creator { font-size: 18px; margin-top: 15px; }
+footer .creator a { color: #FAFAFA; text-decoration: underline; }
+footer .creator a:hover { color: #FF00FF; transition: 0.3s; text-decoration: none; }
 
 @keyframes backgroundslide {
   0%, 100% {   background-image: url(../images/travel/widetemple.jpg); }
