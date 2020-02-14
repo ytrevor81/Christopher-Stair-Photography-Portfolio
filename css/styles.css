@@ -6,7 +6,7 @@ body { overflow-x: hidden; font-family: 'Maven Pro', sans-serif; }
 
 h1 { font-size: 50px; }
 
-button {
+.button {
   width: 250px;
   height: 50px;
   background-color: inherit;
@@ -16,7 +16,7 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+.button:hover {
   transition: 0.3s;
   color: #6F00DE;
   background-color: rgba(255,255,255,0.8);
@@ -90,6 +90,7 @@ button:hover {
   align-items: center;
   }
 .navbar img { height: 45px; width: 45px; margin-top: -15px; }
+.navbar-inverse .navbar-nav>li>a:hover { color: #6F00DE; }
 
 /* --- Gallery --- */
 

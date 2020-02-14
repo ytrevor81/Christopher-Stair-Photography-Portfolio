@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width:1125px) {
-  button { width: 200px; height: 45px; font-size: 18px; }
+  .button { width: 200px; height: 45px; font-size: 18px; }
   .Landing i { font-size: 2em; }
   .About { height: 125vh; }
   .about-container { width: 991px; }
@@ -57,10 +57,10 @@
   .Pricing .package { width: 31%; }
   .Pricing iframe { height: 590px; }
 
+  footer { padding-bottom: 15px; }
   footer h5 { font-size: 15px; }
   footer .copy { font-size: 16px; }
-  footer .creator { font-size: 16px; }
-
+  footer .creator { font-size: 16px; margin-bottom: 0; }
 
 }
 
@@ -69,7 +69,19 @@
 }
 
 @media screen and (max-width: 991px) {
-  
+
+  .About { text-align: center; height: auto; }
+  .about-container { position: static; width: 655px; left: 0; }
+  .about-heading { width: 100%; }
+  .about-text { width: 100%; text-align: left; margin-bottom: 25px; }
+  .text-overflow { width: 100%; }
+  .about-img { position: static; top: 0; left: 0; margin-bottom: 25px; }
+
+  .Pricing iframe { height: 460px; }
+  .Contact { height: auto; padding-bottom: 15px; }
+  footer .info { padding-bottom: 25px; }
+  footer .info div { margin-bottom: 25px; }
+  footer .copy { margin-top: 0px; }
 }
 
 @media screen and (min-width:768px) {
@@ -77,8 +89,8 @@
 }
 
 @media screen and (max-width:768px) {
-  .bigscreen { display: none; }
-  .smallscreen { display: block; }
+  .navbar img { display: none; }
+  .navbar-inverse .navbar-toggle .icon-bar { background-color: #333333; }
 }
 
 
