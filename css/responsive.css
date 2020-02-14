@@ -48,15 +48,37 @@
 }
 
 @media screen and (max-width:1125px) {
+  button { width: 200px; height: 45px; font-size: 18px; }
+  .Landing i { font-size: 2em; }
+  .About { height: 125vh; }
+  .about-container { width: 991px; }
   .img-wrapper { margin-left: 0; }
+
+  .Pricing .package { width: 31%; }
+  .Pricing iframe { height: 590px; }
+
+  footer h5 { font-size: 15px; }
+  footer .copy { font-size: 16px; }
+  footer .creator { font-size: 16px; }
+
+
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   #gallery { padding: 30px 30px 0 30px; }
+}
+
+@media screen and (max-width: 991px) {
+  
 }
 
 @media screen and (min-width:768px) {
   #nextButton, #prevButton, #exitButton { font-size: 3em; }
+}
+
+@media screen and (max-width:768px) {
+  .bigscreen { display: none; }
+  .smallscreen { display: block; }
 }
 
 

@@ -176,7 +176,7 @@ button:hover {
 
 
 /* --- Pricing --- */
-.Pricing h1 { margin-top: 100px; }
+.Pricing h1 { margin-top: 75px; }
 .Pricing .pricing-first-half { background-color: #E5E5E5; height: 80vh; }
 .Pricing .pricing-second-half { background-color: #2D2D2D; text-align: center; }
 .Pricing .standard h4 { font-size: 27px; margin-top: 25px; }
@@ -204,7 +204,8 @@ button:hover {
   padding: 2% 0 2% 0;
   margin-bottom: 75px;
 }
-.Pricing img { width: 95%; border: 1px solid #FAFAFA; }
+.smallscreen { display: none; }
+/*.Pricing img { width: 95%; border: 1px solid #FAFAFA; } */
 
 /* --- Contact --- */
 
