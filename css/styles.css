@@ -51,7 +51,7 @@ button:hover {
  }
  .Landing section {
    height: 100vh;
-   background-color: rgba(0,0,0,0.1);
+   background-color: rgba(0,0,0,0.3);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -65,15 +65,15 @@ button:hover {
    }
 
 .Landing .landing-logo { position: absolute; }
-.Landing .landing-logo img { height: 245px; width: 100px; opacity: 0.6; }
+.Landing .landing-logo img { height: 225px; width: 90px; opacity: 0.6; }
 .Landing .headings h1 {
    color: #FAFAFA;
    text-align: center;
-   font-size: 70px;
+   font-size: 60px;
    margin-top: 0;
    margin-bottom: 0;
  }
-.Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 6px;  }
+.Landing .headings .name { display: flex; justify-content: space-between; letter-spacing: 8px;  }
 .Landing i { color: #FAFAFA; }
 .Landing i:hover, .Landing i:active { transition: 0.3s; color: #FF00FF; }
 .Landing .continue { position: absolute; top: 90%; }
@@ -93,7 +93,7 @@ button:hover {
 
 /* --- Gallery --- */
 
-.Gallery h1 { color: #FAFAFA; margin-top: 100px; }
+.Gallery h1 { color: #FAFAFA; margin-top: 75px; }
 
 .Gallery .travel {
             background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/travel/bali_background.jpg);
@@ -127,7 +127,7 @@ button:hover {
 
 /* --- About --- */
 
-.About { height: 100vh; }
+.About { height: 110vh; }
 .about-background {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/Chris_Background.jpg);
   background-attachment: fixed;
@@ -144,19 +144,19 @@ button:hover {
 .about-container {
     position: absolute;
     left: 16%;
-    width: 1550px;
+    width: 1180px;
   }
 .about-heading { width: 33%; }
-.About h1 { color: #FAFAFA; margin-top: 100px; }
+.About h1 { color: #FAFAFA; margin-top: 75px; }
 .about-text {
     width: 36%;
-    font-size: 20px;
+    font-size: 16px;
     color: #F5F5F5;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .text-overflow { width: 200%; }
 .about-img {
-    height: 525px;
+    height: 425px;
     border: 1px solid #E5E5E5;
     border-radius: 5px;
     position: absolute;
@@ -206,9 +206,6 @@ button:hover {
 }
 .Pricing img { width: 95%; border: 1px solid #FAFAFA; }
 
-/*.Pricing iframe { height: 675px; width: 95%; padding-top: 20px; padding-bottom: 20px; }
-*/
-
 /* --- Contact --- */
 
 .Contact {  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/travel/treeface.jpg);
@@ -219,8 +216,8 @@ button:hover {
             height: 150vh;
             text-align: center;
           }
-.Contact h1 { color: #fff; margin-top: 100px; }
-.Contact .friendly-statement { font-size: 22px; color: #fff; margin: -10px 0 25px 0; }
+.Contact h1 { color: #fff; margin-top: 75px; }
+.Contact .friendly-statement { font-size: 20px; color: #FAFAFA; margin: -15px 0 15px 0; }
 
 .Contact section { margin: 15px 0 15px 0; }
 .Contact input, .Contact textarea { background-color: rgb(225,225,225); color: #333333; }
