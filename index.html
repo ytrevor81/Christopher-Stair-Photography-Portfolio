@@ -181,11 +181,18 @@
     <div class="Contact" id="Contact">
       <div class="h1-underline">
         <h1>CONTACT</h1>
+
+        <!-- Email Notification -->
+        <div id="messages" style="position: absolute; left: 70%; color: #FAFAFA; background-color: #333333; border-color: #FF00FF; padding: 8px 30px 0 0;" class="hide" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div id="messages_content"></div>
+        </div>
+
         <div class="underline white"></div>
       </div>
         <div class="contact-container">
           <h5 class="friendly-statement">Want to work together or have a question?</h5>
-          <form class="gform contact-boxes col-lg-12 col-md-12" method="POST" action="https://script.google.com/macros/s/AKfycbw0n4SpLgbPWpIZ28STt6Q9MCEg8Jy_oiwRc833NjfMmzOfr-g/exec"
+          <form id="contact-form" class="gform contact-boxes col-lg-12 col-md-12" method="POST" action="https://script.google.com/macros/s/AKfycbw0n4SpLgbPWpIZ28STt6Q9MCEg8Jy_oiwRc833NjfMmzOfr-g/exec"
           data-email="ytrevor81@gmail.com">
             <section class="input-group input-group-lg">
               <span class="input-group-addon" id="name"><i class="fa fa-user"></i></span>
@@ -231,7 +238,14 @@
         </footer>
       </div>
 
-      <div style="display:none;" id="thankyou_message" ><h2>Heyyyyy</h2></div>
+      <!-- Email Notification
+      <div style="display: none;" class="email-alert alert" role="alert">
+        Email Sent
+        <button type="button" class="email-alert-button close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
+
 
         <!-- Gallery Modals: Travel, Portraits, and Weddings -->
 
