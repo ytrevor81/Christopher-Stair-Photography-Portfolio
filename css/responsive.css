@@ -124,14 +124,15 @@
 
   .modal-dialog { width: 75%; margin: 10px 0 0 0; left: 13%; }
   .modal-contact { width: 100%; left: 0; }
+  .travel-modal .container, .portraits-modal .container, .weddings-modal .container { width: 100%; }
 
 }
 
 @media screen and (max-width: 600px) {
   .Pricing iframe { height: 350px; }
-  .image-grid { width: 80%; }
-  .travel-modal .container, .portraits-modal .container, .weddings-modal .container { width: 350px; }
-  .image-grid { left: 22%; }
+  .image-grid { width: 100%; }
+  .image-grid { left: 0; }
+  .travel-image-gallery, .portraits-image-gallery, .weddings-image-gallery { width: 100%; margin-left: 0; }
   .travel-img-overlay, .portraits-img-overlay, .weddings-img-overlay { width: 100%; }
   .travel-img-wrapper img, .portraits-img-wrapper img, .weddings-img-wrapper img { width: 100%; }
 
@@ -152,38 +153,17 @@
   .Contact .friendly-statement { font-size: 16px; }
   .Contact .contact-boxes input { font-size: 14px; }
 
+  .travel-img-wrapper img, .portraits-img-wrapper img, .weddings-img-wrapper img { padding: 0; }
+
   footer .info { margin: 0; }
 
 }
 
 @media screen and (max-width: 500px) {
-  .image-grid { width: 58%; left: 28%; }
   .Pricing iframe { height: 245px; }
  }
 
 @media screen and (max-width: 400px) {
   .Pricing iframe { height: 200px; }
-  .image-grid { left: 20%; }
   #travel-overlay, #portraits-overlay, #weddings-overlay { height: 10%; }
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /**/
