@@ -8,7 +8,7 @@ A professional portfolio website for a travel photographer. This website was bui
 # Features:
 - Responsive CSS for all screen displays.
 - Modal feature from Bootstrap is utilized for gallery photographs.
-- Paralax CSS effect.
+- Parallax CSS effect.
 - Email service utilizing Google Sheets via AJAX.
 
 ![chrisstair](https://user-images.githubusercontent.com/46886041/77185747-7d08ee80-6b04-11ea-8ff9-6e26353c64d2.JPG)
