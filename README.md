@@ -1,6 +1,6 @@
 # Christopher-Stair-Photography-Portfolio
 
-A professional portfolio website for a travel photographer. The website is:  https://chrisstairphotography.site/
+A professional portfolio website for a travel photographer.
 
 # Technologies:
 Javascript | Bootstrap CSS | JQuery | HTML | AJAX 
